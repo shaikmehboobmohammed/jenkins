@@ -54,4 +54,11 @@ public class HelloTest {
         Hello hi = new Hello();
         hi.setTimes(-1);
     }
+	
+   @Test
+    public void testString() {
+        Hello hi = new Hello();
+        hi.setTimes(4);
+	    assert(true);
+    }
 }
